@@ -1,0 +1,28 @@
+// 1. Circle:
+// Area = π x r^2
+// where r is the radius of the circle, and π (pi) is a mathematical constant with an approximate value of 3.14.
+// 2. Square:
+// Area = s^2
+// where s is the length of one side of the square.
+// 3. Rectangle:
+// Area = l x b
+// where l is the length, and b is the breadth of the rectangle.
+// To calculate the area of various shapes in Dart, we can write code that takes input values for the required parameters and calculates the area using the appropriate formula. For example, here's some sample code to calculate the area of a circle with radius r:
+void main(){
+  
+double pi = 3.14;
+double r = 5.0;
+double circleArea = pi * r * r;
+print("Area of Circle with radius $r is $circleArea");
+// Similarly, here's the code to calculate the area of a square with side s:
+double s = 4.0;
+double squareArea = s * s;
+print("Area of Square with side $s is $squareArea");
+
+// And here's the code to calculate the area of a rectangle with length l and breadth b:
+double l = 6.0;
+double b = 4.0;
+double rectArea = l * b;
+print("Area of Rectangle with length $l and breadth $b is $rectArea");
+  
+  }
